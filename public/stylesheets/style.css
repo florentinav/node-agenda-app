@@ -1,0 +1,27 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#agenda {
+  width: 100%;
+}
+
+thead {
+  text-align: center;
+}
+
+#agenda td {
+  text-align: center;
+}
+
+table {
+  background-color: white;
+  /* border: 1px solid grey; */
+  /* border-radius: 10%; */
+}

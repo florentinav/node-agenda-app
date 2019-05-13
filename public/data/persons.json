@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstName": "Lannister",
+    "lastName": "Cersei",
+    "phone": "112"
+  },
+  {
+    "id": 1557754549224,
+    "firstName": "Stark",
+    "lastName": "Arya",
+    "phone": "112"
+  },
+  {
+    "id": 1557754588226,
+    "firstName": "Lannister",
+    "lastName": "Tyrion",
+    "phone": "911"
+  },
+  {
+    "id": 1557754622688,
+    "firstName": "Targaryen",
+    "lastName": "Dany",
+    "phone": "111"
+  }
+]

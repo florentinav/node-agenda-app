@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.2/css/uikit.min.css"
+      integrity="sha256-HdEk95ODjFkoyw1rVZZTUO5OxHMRBf93/u1zTjicld8="
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <h1>Phonebook</h1>
+    <div>
+      <input type="Search" placeholder="Search" />
+    </div>
+    <div>
+      <table id="agenda" class="uk-table uk-table-stripped uk-table-hover">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                required
+                class="uk-input"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </td>
+            <td>
+              <input type="text" name="phone" placeholder="Phone" required />
+            </td>
+            <td><button type="submit" onclick="savePerson()">Save</button></td>
+          </tr>
+        </tfoot>
+      </table>
+      <script src="javascripts/agenda.js"></script>
+    </div>
+  </body>
+</html>
