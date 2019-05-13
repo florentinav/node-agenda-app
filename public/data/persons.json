@@ -6,12 +6,6 @@
     "phone": "112"
   },
   {
-    "id": 1557754549224,
-    "firstName": "Stark",
-    "lastName": "Arya",
-    "phone": "112"
-  },
-  {
     "id": 1557754588226,
     "firstName": "Lannister",
     "lastName": "Tyrion",
@@ -22,5 +16,17 @@
     "firstName": "Targaryen",
     "lastName": "Dany",
     "phone": "111"
+  },
+  {
+    "id": 1557765594504,
+    "firstName": "Mormont",
+    "lastName": "Lyanna",
+    "phone": "007"
+  },
+  {
+    "id": 1557773113425,
+    "firstName": "Stark",
+    "lastName": "Arya",
+    "phone": "333"
   }
 ]
