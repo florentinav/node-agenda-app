@@ -202,6 +202,19 @@ function deletePerson(id) {
     });
 }
 
+// if one parameter can skip paranthesis, "(value)" will be "value"
+const search = value => {
+  value = value.toLowerCase();
+  const filtered = allPersons.filter(person => {
+    return (
+      person.firstName.toLowerCase().includes(value) ||
+      person.lastName.toLowerCase().includes(value) ||
+      person.phone.toLowerCase().includes(value)
+    );
+  });
+  display(filtered);
+};
+
 function initEvents() {
   const tbody = document.querySelector("#agenda tbody");
   tbody.addEventListener("click", function(e) {
@@ -214,6 +227,11 @@ function initEvents() {
       const id = tr.getAttribute("data-id");
       editPerson(id);
     }
+  });
+
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', (e) => {
+    search(e.target.value); //e.target = search de la functie, nu de la variabila locala
   });
 }
 initEvents();

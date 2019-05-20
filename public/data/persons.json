@@ -15,18 +15,12 @@
     "id": 1557754622688,
     "firstName": "Targaryen",
     "lastName": "Dany",
-    "phone": "111"
+    "phone": "00000000"
   },
   {
     "id": 1557765594504,
     "firstName": "Mormont",
     "lastName": "Lyanna",
     "phone": "007"
-  },
-  {
-    "id": 1557773113425,
-    "firstName": "Stark",
-    "lastName": "Arya",
-    "phone": "333"
   }
 ]
