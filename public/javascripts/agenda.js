@@ -3,7 +3,7 @@ var editPersonId;
 
 var API_URL = {
   CREATE: "...",
-  READ: "...",
+  READ: "users/", // adresa veche -> 'data/persons.json'
   //ADD: 'data/add.json'
   UPDATE: "users/update",
   DELETE: "users/delete",
@@ -18,8 +18,7 @@ var API_METHOD = {
   ADD: "POST"
 };
 
-fetch("data/persons.json")
-  .then(function(r) {
+fetch(API_URL.READ).then(function(r) {
     return r.json();
   })
   .then(function(persons) {
